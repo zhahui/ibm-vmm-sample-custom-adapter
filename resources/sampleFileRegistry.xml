@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdo:datagraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdo="commonj.sdo"
+    xmlns:wim="http://www.ibm.com/websphere/wim">
+  <changeSummary xmlns=""/>
+  <wim:Root>
+    <wim:entities xsi:type="wim:PersonAccount">
+      <wim:identifier externalId="u599a69e-2006-42bd-8abd-c8e60c65f001" externalName="uid=mingli,o=sampleFileRepository"
+          uniqueId="u599a69e-2006-42bd-8abd-c8e60c65f001" uniqueName="uid=mingli,o=sampleFileRepository"/>
+      <wim:parent>
+        <wim:identifier uniqueName="o=sampleFileRepository"/>
+      </wim:parent>
+      <wim:createTimestamp>2020-07-18T00:37:56.792-04:00</wim:createTimestamp>
+      <wim:modifyTimestamp>2020-07-30T17:12:22.404-04:00</wim:modifyTimestamp>
+      <wim:password>aGFzaGVkUGFzc3dvcmQ6YXBwbGVz</wim:password> <!-- apples -->
+      <wim:uid>mingli</wim:uid>
+      <wim:cn>Ming</wim:cn>
+      <wim:sn>Li</wim:sn>
+      <wim:mail>mingli@gmail.com</wim:mail>
+    </wim:entities>
+    <wim:entities xsi:type="wim:PersonAccount">
+      <wim:identifier externalId="u599a69e-2006-42bd-8abd-c8e60c65f002" externalName="uid=tester,o=sampleFileRepository"
+          uniqueId="u599a69e-2006-42bd-8abd-c8e60c65f002" uniqueName="uid=tester,o=sampleFileRepository"/>
+      <wim:parent>
+        <wim:identifier uniqueName="o=sampleFileRepository"/>
+      </wim:parent>
+      <wim:createTimestamp>2020-07-10T03:07:29.87-04:00</wim:createTimestamp>
+      <wim:modifyTimestamp>2020-07-28T02:19:53.781-04:00</wim:modifyTimestamp>
+      <wim:password>aGFzaGVkUGFzc3dvcmQ6YXBwbGVz</wim:password>
+      <wim:uid>tester</wim:uid>
+      <wim:cn>Tester</wim:cn>
+      <wim:sn>User</wim:sn>
+      <wim:mail>tester@gmail.com</wim:mail>
+    </wim:entities>
+    <wim:entities xsi:type="wim:Group">
+      <wim:identifier externalId="g8040ee7-8176-4035-915c-8702330f0g01" externalName="cn=custom_adapter_group,o=sampleFileRepository"
+          uniqueId="g8040ee7-8176-4035-915c-8702330f0g01" uniqueName="cn=custom_adapter_group,o=sampleFileRepository"/>
+      <wim:parent>
+        <wim:identifier uniqueName="o=sampleFileRepository"/>
+      </wim:parent>
+      <wim:createTimestamp>2020-07-13T21:24:45.207-04:00</wim:createTimestamp>
+      <wim:modifyTimestamp>2020-07-14T04:09:58.543-04:00</wim:modifyTimestamp>
+      <wim:cn>custom_adapter_group</wim:cn>
+      <wim:members>
+        <wim:identifier externalId="u599a69e-2006-42bd-8abd-c8e60c65f001" externalName="uid=mingli,o=sampleFileRepository"
+            uniqueId="u599a69e-2006-42bd-8abd-c8e60c65f001" uniqueName="uid=mingli,o=sampleFileRepository"/>
+      </wim:members>
+	  <wim:members>
+        <wim:identifier externalId="u599a69e-2006-42bd-8abd-c8e60c65f002" externalName="uid=tester,o=sampleFileRepository"
+            uniqueId="u599a69e-2006-42bd-8abd-c8e60c65f002" uniqueName="uid=tester,o=sampleFileRepository"/>
+      </wim:members>
+    </wim:entities>
+  </wim:Root>
+</sdo:datagraph>

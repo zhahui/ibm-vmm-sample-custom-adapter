@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/com.ibm.ws.runtime.wim.base.jar"/>
+	<classpathentry kind="lib" path="lib/com.ibm.ws.runtime.wim.core.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.common.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.commonj.sdo.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.sdo.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.xmi.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
